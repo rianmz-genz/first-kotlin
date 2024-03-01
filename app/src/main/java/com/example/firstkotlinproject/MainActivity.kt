@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
             FirstKotlinProjectTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    Greeting("Android")
+                    Greeting("Iyah")
                 }
             }
         }
@@ -38,6 +38,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     FirstKotlinProjectTheme {
-        Greeting("Android")
+        Greeting("Konsol")
     }
 }
